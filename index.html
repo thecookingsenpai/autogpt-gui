@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+  <link href="./styles.css" rel="stylesheet">
+  <title>AutoGPT GUI</title>
+</head>
+
+<body>
+  <h2 class="centered">AutoGPT Graphical User Interface</h2>
+  <h4 class="centered">AutoGPT created by Torantulino - GUI created by TheCookingSenpai</h4>
+
+    <div class="card" id="settings">
+      <div class="oneliner">
+        <h4>Choose your AI personality (e.g. an AI that can write essays)</h4>
+        <h5 class="sameline">Your AI is: </h5>
+        <input class="sameline wide" type="text" id="zone_personality">
+      </div>
+      <h4>Your AI name is</h5>
+        <div class="oneliner">
+          <input class="sameline" type="text" id="zone_name">
+        </div>
+        <br>
+        <div class="halfcard">
+          <h4>Define up to 5 goals for your AI</h4>
+          <div class="oneliner">
+            <h5 class="sameline">Goal 1</h5>
+            <input class="sameline" type="text" id="zone_goal_1">
+            <h5 class="sameline">Goal 2</h5>
+            <input class="sameline" type="text" id="zone_goal_2">
+          </div>
+          <div class="oneliner">
+            <h5 class="sameline">Goal 3</h5>
+            <input class="sameline" type="text" id="zone_goal_3">
+            <h5 class="sameline">Goal 4</h5>
+            <input class="sameline" type="text" id="zone_goal_4">
+          </div>
+          <div class="oneliner">
+            <h5 class="sameline">Goal 5</h5>
+            <input class="sameline" type="text" id="zone_goal_5">
+          </div>
+        </div>
+        <br>
+        <div class="oneliner">
+          <input class="sameline" type="checkbox" id="cfg_continuous" unchecked>Contiuous Mode</input>
+          <input class="sameline" type="checkbox" id="cfg_debug" unchecked>Debug Mode</input>
+          <input class="sameline" type="checkbox" id="cfg_speak" unchecked>Speak Mode</input>
+          <input class="sameline" type="checkbox" id="cfg_save" unchecked>Save output to file</input>
+        </div>
+        <br>
+        <button class="centered" id="cmd_execute">Go!</button>
+        <br>
+    </div>
+    <div class="card" id="output">
+
+    </div>
+  <!-- You can also require other files to run in this process -->
+  <script src="./script.js"></script>
+</body>
+
+</html>

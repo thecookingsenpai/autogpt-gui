@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    line-height: 1.42857143;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button:hover
+{
+    background-color: #bcbcbc;
+    color: #1b4121;
+}
+/* Element Styles */
+
+.centered {
+    align-items: center;
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 15px;
+}
+
+.card {
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px #000;
+}
+
+
+.halfcard {
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 10px #000;
+    width: 70%;
+    margin: auto;
+}
+
+
+.oneliner {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.sameline {
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+.wide {
+    width: 50%;
+}
