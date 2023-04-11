@@ -2,7 +2,7 @@
 
 ## A graphical user interface to AutoGPT
 
-![GUI][https://github.com/thecookingsenpai/autogpt-gui/assets/gui.png?raw=true]
+![GUI][https://github.com/thecookingsenpai/autogpt-gui/blob/master/assets/gui.png?raw=true]
 
 ### Status
 
