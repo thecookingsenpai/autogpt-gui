@@ -18,6 +18,7 @@ input {
 
 button {
     background-color: #000000;
+    color: #02cc53;
     border: 1px solid #02cc53;
     border-radius: 15px;
     font-size: 24px;
@@ -75,6 +76,11 @@ button:hover
 
 .wide {
     width: 50%;
+}
+
+.output_space {
+  height: fit-content !important;
+  border-radius: 5px !important;
 }
 
 /* Animations */
