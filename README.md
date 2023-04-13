@@ -2,7 +2,7 @@
 
 ## A graphical user interface to AutoGPT
 
-https://i.ibb.co/jyLyTHF/gui.png
+!(GUI)[https://i.ibb.co/jyLyTHF/gui.png]
 
 ### Status
 
