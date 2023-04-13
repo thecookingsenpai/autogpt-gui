@@ -2,7 +2,8 @@
 
 ## A graphical user interface to AutoGPT
 
-![][https://github.com/thecookingsenpai/autogpt-gui/blob/master/assets/gui.png?raw=true]
+![image](https://user-images.githubusercontent.com/67682496/231631881-72ad9cc9-56d7-447c-bbb5-5fa407897f0a.png)
+
 
 ### Status
 
@@ -20,16 +21,16 @@
 
 ### Usage
 
-    git clone https://github.com/thecookingsenpai/autogpt-gui
-    cd autogpt-gui
-    npm install
+        git clone https://github.com/thecookingsenpai/autogpt-gui
+        cd autogpt-gui
+        npm install
 
 Then, place autogpt-gui in your autogpt folder (e.g. AutoGPT/autogpt_gui)
 
 Finally, in your autogpt folder:
 
-    cd autogpt-gui
-    npm start
+        cd autogpt-gui
+        npm start
 
 **Important:** please take a moment to read [autogpt instructions](https://github.com/Torantulino/Auto-GPT#usage) to avoid risks and to learn the meaning of the various options.
 
