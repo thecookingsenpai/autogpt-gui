@@ -9,6 +9,8 @@
 
 *Alpha has been tested with simple tasks, remember it will probably contains errors and please open issues about them*
 
+*NOTE: Currently only continuous mode is supported*
+
 ***Current Version:*** Alpha Version (13 April 2023)
 
 - [x] Code architecture definition
@@ -16,6 +18,7 @@
 - [x] Defining the best way to integrate autogpt
 - [x] Actual integeration of autogpt
 - [x] Alpha Version Release
+- [ ] Ability to work in non continuous mode
 - [ ] Debug of Alpha (issues are welcomed!)
 - [ ] Beta Version Release
 
