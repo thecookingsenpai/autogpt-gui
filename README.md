@@ -6,15 +6,17 @@
 
 ### Status
 
-*Not Yet Functional*
+*Alpha has been tested with simple tasks, remember it will probably contains errors and please open issues about them*
 
-***Estimate first working alpha:*** between 11 April 2023 and 15 April 2023
+***Current Version:*** Alpha Version (13 April 2023)
 
 - [x] Code architecture definition
 - [x] All needed elements are in GUI
 - [x] Defining the best way to integrate autogpt
-- [ ] Actual integeration of autogpt
-- [ ] Alpha Version Release
+- [x] Actual integeration of autogpt
+- [x] Alpha Version Release
+- [ ] Debug of Alpha (issues are welcomed!)
+- [ ] Beta Version Release
 
 ### Usage
 
