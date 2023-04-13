@@ -11,20 +11,17 @@
 </head>
 
 <body>
-  <h2 class="centered expand">AutoGPT Graphical User Interface</h2>
-  <h4 class="centered expand">AutoGPT created by Torantulino - GUI created by TheCookingSenpai</h4>
+  <h3 class="centered expand">AutoGPT Graphical User Interface</h3>
+  <h5 class="centered expand">AutoGPT created by Torantulino - GUI created by TheCookingSenpai</h5>
   <div class="centered">
     <div class="card tilt-top" id="settings">
       <div class="oneliner">
         <h4>Choose your AI personality (e.g. an AI that can write essays)</h4>
         <h5 class="sameline">Your AI is: </h5>
         <input class="sameline wide" type="text" id="zone_personality">
+        <h5 class="sameline"> And is named: </h5>
+        <input class="sameline" type="text" id="zone_name">
       </div>
-      <h4>Your AI name is</h5>
-        <div class="oneliner">
-          <input class="sameline" type="text" id="zone_name">
-        </div>
-        <br>
         <div class="halfcard">
           <h4>Define up to 5 goals for your AI</h4>
           <div class="oneliner">
@@ -52,13 +49,16 @@
           <input class="sameline" type="checkbox" id="cfg_save" unchecked>Save output to file</input>
         </div>
         <br>
+        <div class="hidden red" id="zone_error"></div>
         <button class="centered" id="cmd_execute">Go!</button>
         <br>
     </div>
     <div class="output_space card tilt-top" id="output">
+      <div class="hidden" id="zone_recap"></div>
       <h4>Output</h4>
-      <div class="output_space" id="output_text"></div>
+      <div class="output_space scrollable output_text" id="zone_output"></div>
     </div>
+    <button class="centered hidden" id="cmd_stop">Stop</button>
   </div>
   <!-- You can also require other files to run in this process -->
   <script src="./script.js"></script>
