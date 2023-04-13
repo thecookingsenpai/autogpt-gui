@@ -10,6 +10,7 @@ function createWindow () {
   height = sizes.height
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    icon: path.join(__dirname, 'assets/icon.png'),
     width: width,
     height: height,
     webPreferences: {

@@ -23,7 +23,6 @@ const zone_personality = document.getElementById('zone_personality')
 const zone_name = document.getElementById('zone_name')
 const zone_output = document.getElementById('zone_output')
 const zone_error = document.getElementById('zone_error')
-const zone_recap = document.getElementById('zone_recap')
 
 // Variables
 var is_running = false
@@ -36,6 +35,7 @@ async function init() {
         if (is_running) return // Avoid multiple executions
         // Executing autogpt on click on the Go button
         console.log('Executing')
+        zone_output.innerHTML = ''
         let args = await get_args_from_gui()
         console.log(args)
         is_running = true
@@ -48,6 +48,7 @@ async function init() {
         if (child_autogpt) {
             child_autogpt.kill()
             cmd_stop.classList.add('disabled')
+            zone_output.scrollTop = zone_output.scrollHeight
         }
     });
 }
@@ -119,9 +120,6 @@ async function execute_autogpt(args) {
     let args_cmd = ['scripts/main.py']
     // Pushing the arguments
     args_cmd.push(...additionals)
-    // Recap for the user
-    if(zone_recap.classList.contains('hidden')) zone_recap.classList.remove('hidden')
-    zone_recap.innerHTML = "python " + args_cmd.join(' ')
     // Executing
     child_autogpt = spawn(cmd, args_cmd, {cwd: path.join(__dirname, '..')})
     if (child_autogpt.pid) {
@@ -145,6 +143,8 @@ async function execute_autogpt(args) {
             zone_output.innerHTML += '<br>|>|> '
         }
         zone_output.innerHTML += data
+        // Scroll to the bottom
+        zone_output.scrollTop = zone_output.scrollHeight
         // NOTE if specified, save the output to a file
         if (save_output) {
             fs.appendFileSync(path.join(__dirname, 'output.txt'), data)

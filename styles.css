@@ -93,11 +93,15 @@ button:hover
 
 .scrollable {
     overflow-y: scroll !important;
-    height: 100px !important;
+    height: 75% !important;
 }
 
 .red {
     color: #ff0000 !important;
+}
+
+.small {
+    font-size: 10px !important;
 }
 /* Animations */
 /* ----------------------------------------------
