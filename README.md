@@ -1,5 +1,7 @@
 # AutoGPT GUI
 
+WARNING: Currently discontinued, feel free to fork and work on this version but don't lean on it for production
+
 ## A graphical user interface to AutoGPT
 
 ![image](https://user-images.githubusercontent.com/67682496/231631881-72ad9cc9-56d7-447c-bbb5-5fa407897f0a.png)
