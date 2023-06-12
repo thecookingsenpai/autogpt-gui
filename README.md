@@ -9,7 +9,7 @@ WARNING: Currently discontinued, feel free to fork and work on this version but 
 
 ### Status
 
-*Alpha has been tested with simple tasks, remember it will probably contains errors and please open issues about them*
+*Alpha has been tested with simple tasks, remember it will probably contain errors and please open issues about them*
 
 *NOTE: Currently only continuous mode is supported*
 
@@ -18,7 +18,7 @@ WARNING: Currently discontinued, feel free to fork and work on this version but 
 - [x] Code architecture definition
 - [x] All needed elements are in GUI
 - [x] Defining the best way to integrate autogpt
-- [x] Actual integeration of autogpt
+- [x] Actual integration of autogpt
 - [x] Alpha Version Release
 - [ ] Ability to work in non continuous mode
 - [ ] Debug of Alpha (issues are welcomed!)
