@@ -34,7 +34,6 @@ Then, place autogpt-gui in your autogpt folder (e.g. AutoGPT/autogpt_gui)
 
 Finally, in your autogpt folder:
 
-        cd autogpt-gui
         npm start
 
 **Important:** please take a moment to read [autogpt instructions](https://github.com/Torantulino/Auto-GPT#usage) to avoid risks and to learn the meaning of the various options.
