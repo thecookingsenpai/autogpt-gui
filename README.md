@@ -6,7 +6,6 @@ WARNING: Currently discontinued, feel free to fork and work on this version but 
 
 ![image](https://user-images.githubusercontent.com/67682496/231631881-72ad9cc9-56d7-447c-bbb5-5fa407897f0a.png)
 
-
 ### Status
 
 *Alpha has been tested with simple tasks, remember it will probably contains errors and please open issues about them*
